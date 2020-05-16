@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ywc';
+
+  featuresData = 'recipe'
+
+
+  onNavigate(eventData:string) {
+    this.featuresData = eventData;
+  }
 }
